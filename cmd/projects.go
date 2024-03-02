@@ -11,10 +11,11 @@ var ProjectsCmd = &cobra.Command{
 }
 
 func init() {
-	rootCmd.AddCommand(ProjectsCmd)
 
+	rootCmd.AddCommand(ProjectsCmd)
+	
 }
 
 func genProjects(cmd *cobra.Command, args []string) {
-	
+
 }
