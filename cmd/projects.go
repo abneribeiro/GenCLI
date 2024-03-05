@@ -7,7 +7,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// ProjectsCmd represents the projects command
 var projectsCmd = &cobra.Command{
 	Use:   "proj",
 	Short: "generate your projects from the terminal",
