@@ -1,4 +1,4 @@
-module github.com/abneribeiro/termPr
+module github.com/abneribeiro/Gen
 
 go 1.21.6
 
