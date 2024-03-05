@@ -14,8 +14,8 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "terminalProjects",
-	Short: "generate your projects from the terminal",
+	Use:   "Gen",
+	Short: "Generate your projects from the terminal",
 	Long: `terminalProjects is a CLI application that allows you to generate your projects from the terminal.
 	
 	You can create a new project with a simple command and the project will be created with the structure you want.
@@ -45,6 +45,7 @@ func init() {
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
+	
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
