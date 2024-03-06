@@ -1,4 +1,4 @@
-module github.com/abneribeiro/Gen
+module github.com/abneribeiro/gen
 
 go 1.21.6
 
