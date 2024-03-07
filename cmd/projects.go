@@ -15,7 +15,7 @@ var projectsCmd = &cobra.Command{
 	Long: `GenCli is a CLI application that allows you to generate your projects from the terminal.
 
 	For example:
-	terminalProjects projects -n myProject.go
+	terminalProjects projects -n myProject
 	`,
 	Run: genProjects,
 }
@@ -24,7 +24,7 @@ func init() {
 
 	rootCmd.AddCommand(projectsCmd)
 
-	projectsCmd.Flags().StringP("name", "n","","Specify the programming language")
+	projectsCmd.Flags().StringP("name", "n","","Specify the project name")
 
 	projectsCmd.MarkFlagRequired("name")
 
