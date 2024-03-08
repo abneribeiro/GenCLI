@@ -4,6 +4,7 @@ import (
 	"github.com/spf13/cobra"
 	"log"
 	"os"
+	"os/exec"
 	"path/filepath"
 )
 
@@ -49,6 +50,19 @@ func genProjects(cmd *cobra.Command, args []string) {
 		log.Fatal(err)
 	}
 	defer file.Close()
+
+	err = os.Chdir(projectName)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	gitCmd := exec.Command("git", "init")
+
+	err = gitCmd.Run()
+
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	log.Println("File created successfully")
 }
