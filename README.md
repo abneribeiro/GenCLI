@@ -12,11 +12,13 @@ GenCli is a versatile Command-Line Interface (CLI) tool designed to streamline p
 ## Getting Started
 
 1. **Installation**:
+
    ```bash
    go get -u github.com/abneribeiro/gen
    ```
 
 2. **Usage**:
+
    ```bash
    gen proj -n projectName.js
    ```
@@ -27,15 +29,15 @@ GenCli is a versatile Command-Line Interface (CLI) tool designed to streamline p
 ## Examples
 
 - Create a Go project named "MyApp":
-   ```bash
-    gen proj -n MyApp.go
-   ```
+  ```bash
+   gen proj -n MyApp
+  ```
 
 ## Future Enhancements
 
-- Project Templates
-- Git Integration
-- Additional Advanced Options
+[] Project Templates
+[X] Git Integration
+[] Additional Advanced Options
 
 ## Contributions
 
