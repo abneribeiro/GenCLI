@@ -35,9 +35,9 @@ GenCli is a versatile Command-Line Interface (CLI) tool designed to streamline p
 
 ## Future Enhancements
 
-[] Project Templates
-[X] Git Integration
-[] Additional Advanced Options
+- [ ] Project Templates
+- [x] Git Integration
+- [ ] Additional Advanced Options
 
 ## Contributions
 
